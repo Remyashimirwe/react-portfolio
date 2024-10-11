@@ -1,7 +1,7 @@
 import './App.css'
 import {BsFillMoonStarsFill} from "react-icons/bs";
 import {AiFillTwitterCircle,AiFillLinkedin,AiFillInstagram,AiFillYoutube} from "react-icons/ai";
-import recky from '../public/a.jpg'
+import recky from '../public/download.jpg'
 function App() {
     return (
         <div>
@@ -21,7 +21,7 @@ function App() {
                     <h3 className={"text-2xl py-2"}>Developer AND Designer</h3>
                     <p className={"text-md py-5 leading-8 text-gray-800"}>I am a skilled Full Stack Developer with expertise in both front-end and back-end technologies. Proficient in HTML, CSS, and JavaScript, I create engaging user interfaces using frameworks like React. On the back end, I work with Node.js and Python, managing databases like MongoDB and SQL to build robust APIs.</p>
                 </div>
-                <div className={"text-5xl flex justify-center gap-16 py-3 text-gray-600"}>
+                <div className={"text-5xl flex justify-center gap-16 py-3 text-gray-600 cursor-pointer"}>
                     <AiFillInstagram/>
                     <AiFillLinkedin/>
                     <AiFillTwitterCircle/>
